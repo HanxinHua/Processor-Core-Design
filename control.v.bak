@@ -1,0 +1,13 @@
+// Control for the Duke 550 Processor
+// Authors: <A, B and C>
+
+module control ( 	input [4:0] op
+						// TODO: Figure out what other control signals you require for your processor						
+						// TODO: Figure out what values they will take based on the opcode
+						
+						);
+
+// Hint: This unit basically decides the values of the control signals
+// based on the input opcode received. Eg. Look at slide 31 in Lecture 9
+
+endmodule 

@@ -1,0 +1,44 @@
+module processor ( 	input clock,
+							input reset,
+							input [31:0] keyboard_in,
+							output keyboard_ack, 
+							output lcd_write,
+							output [31:0] lcd_data);
+
+// The core of the Duke 550 processor
+// Author: <INSERT YOUR NAME HERE!!!!>
+
+
+// Define all the wires you will need below:
+
+
+// Instantiate the imem - connect with wires to other units?
+
+
+// Instantiate the dmem - connect with wires to other units?
+
+
+// Instantiate the regfile - connect with wires to other units?
+
+
+// Instantiate the alu - connect with wires to other units?
+
+
+// Instantiate the control unit - connect with with wires to other units?
+
+
+/* TODO: Connect stuff up to make a processor
+	
+	---- FETCH Stage
+	
+	---- DECODE Stage
+	
+	---- EXECUTE Stage
+	
+	---- MEMORY WRITE Stage
+	
+	---- WRITEBACK Stage
+
+*/
+
+endmodule
