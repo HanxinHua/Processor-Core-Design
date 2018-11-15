@@ -7,6 +7,7 @@ To run the program, make sure the .hex file are in the same directory. And chang
 Before reset is asserted high, the state of the processor is undefined. After reset is asserted, the processor begins execution from instruction memory address zero with all zeros in the register file.
 
 Instruction set:
+
 |Instruction  |Opcode|Type  |Usage            |   Operation                                      |
 | ------------|:----:|:-----:| :-------------:|:----------------------------------------------:|
 |add          |00000 |R     |add $rd, $rs, $rt|   $rd = $rs + $rt                                |
@@ -27,7 +28,13 @@ Instruction set:
 |output       |01111 |I     |output $rd       |   print character $rd[7:0] on LCD display       |
 
 The formats of the R, I, and J type instructions are shown below.
+
 |Type |Format|
+| ---------- | :-----------: |
 |R    |Opcode [31:27]   Rd [26:22]   Rs [21:17]   Rt [16:12]       Zeroes [11:0]|
 |I    |Opcode [31:27]   Rd [26:22]   Rs [21:17]   Immediate [16:0]|
 |J    |Opcode [31:27]   Target [26:0]|
+
+| 表格      | 第一列     | 第二列     |
+| ---------- | :-----------:  | :-----------: |
+| 第一行     | 第一列     | 第二列     |
