@@ -35,6 +35,4 @@ The formats of the R, I, and J type instructions are shown below.
 |I    |Opcode [31:27]   Rd [26:22]   Rs [21:17]   Immediate [16:0]|
 |J    |Opcode [31:27]   Target [26:0]|
 
-| 表格      | 第一列     | 第二列     |
-| ---------- | :-----------:  | :-----------: |
-| 第一行     | 第一列     | 第二列     |
+
